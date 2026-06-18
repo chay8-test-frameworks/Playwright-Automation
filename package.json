@@ -1,0 +1,21 @@
+{
+  "name": "playwright-automation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chay8-test-frameworks/Playwright-Automation.git"
+  },
+  "author": "Aho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chay8-test-frameworks/Playwright-Automation/issues"
+  },
+  "homepage": "https://github.com/chay8-test-frameworks/Playwright-Automation#readme",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.61.0",
+    "@types/node": "^25.9.3"
+  }
+}
