@@ -2,7 +2,16 @@
   "name": "playwright-automation",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:report": "npx playwright show-report",
+    "test-run-chromium": "npx playwright test --project=chromium --headed",
+    "test-run-firefox": "npx playwright test --project=firefox --headed",
+    "test-run-webkit": "npx playwright test --project=webkit --headed",
+    "playwright-test-ui": "npx playwright test --ui",
+    "playwright-test-debug": "npx playwright test --debug"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/chay8-test-frameworks/Playwright-Automation.git"
