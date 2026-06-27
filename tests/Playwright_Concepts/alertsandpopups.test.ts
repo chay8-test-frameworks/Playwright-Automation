@@ -34,7 +34,7 @@ test('Confirmation Alert Test', async ({ page }) => {
 });
 
 //prompt alert
-test.only('Prompt Alert Test', async ({ page }) => {
+test('Prompt Alert Test', async ({ page }) => {
   // Navigate to the initial page
   await page.goto('https://testautomationpractice.blogspot.com/');
   expect (await page.getByText('Data Entry Form').isVisible()).toBeTruthy();
